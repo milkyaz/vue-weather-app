@@ -2,7 +2,12 @@
 
 </script>
 <template>
-    <button class="cs-button">Кнопка</button>
+    <button class="cs-button">
+        <div>
+            <slot name="icon" />
+        </div>
+        <slot />
+    </button>
 </template>
 <style scoped>
 .cs-button {

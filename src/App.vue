@@ -6,6 +6,11 @@ import BaseButton from './components/BaseButton.vue';
 
 <template>
   <div>
-    <BaseButton />
+    <BaseButton>
+      <template #icon>
+          +
+      </template>
+      Сохранить
+    </BaseButton>
   </div>
 </template>
