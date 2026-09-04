@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'MyCustomFont';
-    src: local('MyCustomFont'), url('/Users/daniil-zaburunov/pet-projects/vue-memo-word/src/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype'),
-    local('MyCustomFont'), url('/Users/daniil-zaburunov/pet-projects/vue-memo-word/src/assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
