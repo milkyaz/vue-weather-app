@@ -6,5 +6,5 @@ const currentDate = computed(() => new Date())
 </script>
 
 <template>
-  <div><p>{{ currentDate }}</p></div>
+  <div><p style="font-family: MyCustomFont">{{ currentDate }}</p></div>
 </template>
