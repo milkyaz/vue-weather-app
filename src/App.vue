@@ -1,11 +1,11 @@
 <script setup>
-import { computed } from "vue";
+import BaseButton from './components/BaseButton.vue';
 
 
 </script>
 
 <template>
-<div>
-  <h1>Лого</h1>
-</div>
+  <div>
+    <BaseButton />
+  </div>
 </template>
